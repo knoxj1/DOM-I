@@ -133,3 +133,7 @@ contact.getElementsByTagName('p')[2].innerHTML = `sales@greatidea.io`;
 
 let footer = document.querySelector('footer');
 footer.getElementsByTagName('p')[0].innerHTML = siteContent['footer']['copyright'];
+
+
+//end
+
