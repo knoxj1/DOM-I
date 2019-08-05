@@ -55,6 +55,17 @@ nav[3].textContent = "Features";
 nav[4].textContent = "About";
 nav[5].textContent = "Contact";
 
+nav.forEach(element => element.style.color = 'blue');
+let newLink = document.createElement('a');
+
+const newA = document.createElement('a');
+newA.textContent = "Visit Us";
+newA.style.color = 'green';
+
+
+const aContent = document.querySelector('nav');
+aContent.append(newA);
+
 //setting up cta header
 let ctaHead = document.querySelector('.cta-text h1');
 ctaHead.innerHTML = `DOM <br> is <br> Awesome`;
